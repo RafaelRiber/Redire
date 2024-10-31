@@ -1,5 +1,209 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "499cc2c9-7f62-4229-b1e2-c61594dd5fd7")
+	(paper "A4")
+	(title_block
+		(title "REDIRE")
+		(date "2024-10-31")
+		(rev "A")
+		(company "Rafael Riber")
+	)
+	(lib_symbols)
+	(sheet
+		(at 130.81 38.1)
+		(size 29.21 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "525f2cea-54df-4fdc-85fe-92301961d302")
+		(property "Sheetname" "FPGA"
+			(at 130.81 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 130.81 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Redire"
+				(path "/499cc2c9-7f62-4229-b1e2-c61594dd5fd7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 43.18)
+		(size 30.48 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57804aa4-c493-4ac9-b482-ff009c5a7990")
+		(property "Sheetname" "USB"
+			(at 55.88 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 55.88 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Redire"
+				(path "/499cc2c9-7f62-4229-b1e2-c61594dd5fd7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 86.36)
+		(size 44.45 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e61612d-ebad-48c9-b728-0d6e514c2d11")
+		(property "Sheetname" "Audio"
+			(at 52.07 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 52.07 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Redire"
+				(path "/499cc2c9-7f62-4229-b1e2-c61594dd5fd7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 167.64)
+		(size 36.83 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa169b31-cf3d-4a31-90fe-ccc7194b4f91")
+		(property "Sheetname" "Power"
+			(at 20.32 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 20.32 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Redire"
+				(path "/499cc2c9-7f62-4229-b1e2-c61594dd5fd7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 34.29)
+		(size 19.05 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb74fc0a-e601-44be-97ec-0b5f228ebe20")
+		(property "Sheetname" "Leds"
+			(at 208.28 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 208.28 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Redire"
+				(path "/499cc2c9-7f62-4229-b1e2-c61594dd5fd7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

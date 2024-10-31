@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "redire")(type "KiCad")(uri "${KIPRJMOD}/libs/redire.kicad_sym")(options "")(descr ""))
+)
